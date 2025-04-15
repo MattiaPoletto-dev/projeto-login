@@ -68,6 +68,11 @@ form label {
     display: none;
 }
 
+div.campo > input {
+    width: calc(100% - 40px);
+    transform: translateY(-4px); /* Sempre como última linha */
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;

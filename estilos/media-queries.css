@@ -16,6 +16,7 @@ Telas grandes / tvs: acima de 1440px
 
     section#login {
         width: 80vw;
+        height: 350px;
     }
     
     section#login > div#imagem {
@@ -27,6 +28,14 @@ Telas grandes / tvs: acima de 1440px
     section#login > div#formulario {
         float: right;
         width: 70%;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+
+    .campo > input {
+        height: 25px;
     }
 }
 
@@ -56,6 +65,15 @@ Telas grandes / tvs: acima de 1440px
     }
     
     div#formulario > p {
-        font-size: 1.2em;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+    div#formulario > form > input[type=submit] {
+        margin-top: 30px;
+    }
+
+    .campo > input {
+        height: 25px;
     }
 }
